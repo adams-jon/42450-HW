@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=primerpluschp2prb2-furlongs
+PROJECTNAME=PrimerPlusChp2Prb2-Furlongs
 
 # Active Configuration
 DEFAULTCONF=Debug

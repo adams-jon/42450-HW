@@ -13,7 +13,8 @@
 
 using namespace std;
 
-/*Problem 2: Write a program that asks for a distance in furlongs
+/*From C++ Primer Plus, Sixth Edition - Chapter 1 Problem 2:
+ *Write a program that asks for a distance in furlongs
  * and converts it to yards. (I added additional conversions)
  */
 
@@ -30,23 +31,25 @@ int main(int argc, char** argv) {
     cout<<"U.S. customary units equal to one-eighth of a mile, equivalent"<<endl;
     cout<<"to 220 yards, 660 feet, 40 rods, or 10 chains. Using the "<<endl;
     cout<<"internationally accepted conversion ratio that one inch equals"<<endl;
-    cout<<"exactly 25.4 millimetres, one furlong is 201.168 metres."<<endl;
+    cout<<"exactly 25.4 millimeters, one furlong is 201.168 meters."<<endl;
     cout<<"Enter your value:"<<endl;
     //Input
     cin>>furlon;
     //Output and conversions
     cout<<"This distance is equal to:"<<endl;
-    yard= (furlon * 220);
+    yard= (furlon * 2.20e2);
     cout<<yard<<" yards."<<endl;
-    miles= (furlon * .125);
+    miles= (furlon * 1.25e-1);
     cout<<miles<<" miles."<<endl;
-    kilom= (furlon * 201.168) / 1000;
+    kilom= (furlon * 2.01168e2) / 1.0e3;
     cout<<kilom<<" kilometers."<<endl;
+    cout<<"Press enter to exit"<<endl;
     cin.get();
     cin.get();
     
     //Exit stage right
 
     return 0;
+    
 }
 
