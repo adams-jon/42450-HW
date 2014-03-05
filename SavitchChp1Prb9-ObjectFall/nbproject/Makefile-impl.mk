@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=savitchchp1prb9-objectfall
+PROJECTNAME=SavitchChp1Prb9-ObjectFall
 
 # Active Configuration
 DEFAULTCONF=Debug

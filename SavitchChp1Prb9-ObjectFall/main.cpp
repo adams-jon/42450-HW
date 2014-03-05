@@ -4,18 +4,15 @@
  *
  * Created on March 2, 2014, 7:51 PM
  */
-
+//System Libraries
 #include <iostream>
 using namespace std;
-
 //Global Constants
 //Function Prototypes
-
 //Execution
 int main(int argc, char** argv) {
-    
-    int time, dist, conf;
-    
+//Variable declaration
+    int time, dist, conf;    
 //Initial Time Input
 cout<<"Please insert the amount of time, in seconds, ";
 cout<<"that an object will be falling to know how ";
@@ -35,15 +32,12 @@ cout<<"Press enter this distance in feet to verify you received the "<<endl;
 cout<<"answer. Or press any key to close the program"<<endl;
 cin>>conf;
 if ( conf == dist );
-
 /* How do I
  * 
  *  A) Just require the user to input a key to hold the program open
  without declaring an unnecessary variable. (( cin.get() x2 ?? ))
  * 
  * B) How do I create a loop?*/
-
-    return 0;
-    
+    return 0;  
 }
 

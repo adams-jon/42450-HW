@@ -4,22 +4,16 @@
  *
  * Created on February 26, 2014, 9:40 AM
  */
-
+//System Libraries
 #include <iostream>
-
+using namespace std;
 //Global Constants
 //Function Prototypes
-
-using namespace std;
-
 //Execution
 int main(int argc, char** argv) {
-// See a C
-    
-    char letter, closeC;
-   
-    //Output
-    
+// Variable declaration
+    char letter, closeC;  
+//Input request for letter
     cout<<"Welcome to C. Would you like to see a C?"<<endl;
     cout<<"Enter a character and see it as a C!!"<<endl;
     cin>>letter;

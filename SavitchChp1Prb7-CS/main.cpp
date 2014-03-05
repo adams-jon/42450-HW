@@ -4,15 +4,11 @@
  *
  * Created on March 3, 2014, 7:34 PM
  */
-
+//System Libraries
 #include <iostream>
-
-
+using namespace std;
 //Global Constants
 //Function Prototypes
-
-using namespace std;
-
 //Execution
 int main(int argc, char** argv) {
     //Output CS!
@@ -33,7 +29,7 @@ int main(int argc, char** argv) {
     cout<<"Computer Science is Cool Stuff!!"<<endl;
     cin.get();
     cin.get();
-            //Exit Stage Right
+//Exit Stage Right
     return 0;
 }
 

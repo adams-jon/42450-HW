@@ -4,12 +4,9 @@
  *
  * Created on March 4, 2014, 4:41 PM
  */
-
+//System libraries
 #include <iostream>
-
 using namespace std;
-
-
 //Global Constants
 //Function Prototypes
 
@@ -24,14 +21,14 @@ int main(int argc, char** argv) {
     //Are there unsigned floats?
     float lightye;
     unsigned long astrun;
-    
+    //Input request
     cout<<"Please enter your object's distance in light years."<<endl;
     cin>> lightye;
+    //Calculations and output display
     astrun= (lightye * 2.65608e5);
     cout<<"Object is "<<astrun<<" astronomical units away!!"<<endl;
     cin.get();
     cin.get();
-    
 //Exit Stage Right
     return 0;
 }
